@@ -11,3 +11,6 @@ set(GLFW_INSTALL OFF CACHE BOOL "" FORCE)
 
 add_subdirectory(external/glfw)
 target_link_libraries(BioShock glfw)
+
+add_subdirectory(external/glad)
+target_link_libraries(BioShock glad)
